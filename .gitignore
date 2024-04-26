@@ -1,0 +1,25 @@
+# Archivos y directorios de Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de construcción
+dist/
+build/
+
+# Archivos de configuración del entorno
+.env
+.env.test
+
+# Archivos de cache
+.cache/
+.next/cache
+.rush/temp/
+
+# Archivos de registro
+*.log
+
+# Directorios de IDE
+.idea/
+.vscode/
+*.sw*
