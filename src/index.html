@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./css/estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="font-principal bg-veintiuno-pattern">
+<body class="font-principal bg-veintiuno-pattern scroll-smooth focus:scroll-auto">
+
     <header>
         <nav class="wrapper h-20  flex items-center justify-between ">
 
@@ -28,43 +29,72 @@
                 class="fixed inset-0  bg-gradient-to-b from-primary-color-0/70 to-quaternary-color-0/70 translate-x-full peer-checked:translate-x-0 transition-transform md:static md:bg-none md:translate-x-0">
 
                 <ul
-                    class="absolute inset-x-0 top-24 p-12 bg-primary-color-0 w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold text-terciary-color-0 shadow-2xl md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static">
+                    class="sticky top-0 inset-x-0 p-12 bg-primary-color-0 w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold text-terciary-color-0 shadow-2xl md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static peer">
                     <li>
-                        <a href="">Pricing</a>
+                        <a href="#nosotros" class="peer-checked:translate-x-0 transition-transform">Acerca de Nosotros</a>
                     </li>
                     <li>
-                        <a href="">Product</a>
+                        <a href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="">About us</a>
+                        <a href="#servicios">Servicios</a>
                     </li>
                     <li>
-                        <a href="">Carrers</a>
+                        <a href="#testimonios">Testimonios</a>
                     </li>
                     <li>
-                        <a href="">Comunity</a>
+                        <a href="#contacto">Contacto</a>
                     </li>
+
                 </ul>
             </div>
-            <a href="#" class="btn hidden lg:block">Get Started</a>
+            <a href="mailto:j.alehernandezt@gmail.com" target="_blank" class="btn hidden lg:block">Contactanos</a>
         </nav>
 
         <section class="wrapper grid gap-8 justify-items-center items-center pb-12 md:grid-cols-2 py-24">
             <img src="./images/LogoInverso.png" alt="" class="w-full max-w-lg md:order-1">
-            <article class="text-center space-y-6 md:text-left md:space-y-8">
+            <article class="text-center space-y-6 md:text-left md:space-y-8" id="nosotros">
                 <h1 class="text-4xl font-bold text-terciary-color-0 md:text-5xl">The web is yours</h1>
                 <p class="text-quaternary-color-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
                     fugiat, eligendi libero quia fugit labore veniam! At unde cupiditate harum fugiat odio officia neque
                     repellendus, dicta eligendi enim, blanditiis explicabo?</p>
-                <a href="" class="btn mx-auto md:mx-0">Get Started</a>
+                <a href="mailto:j.alehernandezt@gmail.com" class="btn mx-auto md:mx-0">Contactanos</a>
             </article>
         </section>
     </header>
 
     <main>
-        <section class="wrapper text-center py-24 grid gap-12 md:grid-cols-2 md:text-left">
 
-            <article>
+        <section class="seccion w-full min-h-screen wrapper">
+            <h1 id="portafolio" class="text-4xl font-bold text-terciary-color-0 md:text-5xl">Portafolio</h1>
+            <p class="text-quaternary-color-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ex vel quas earum eveniet quisquam aperiam impedit harum molestias perspiciatis! Porro soluta non enim qui facere ipsa maiores quo? Sunt!</p>
+            <article class="cards wrapper grid gap-8 justify-items-center items-center pb-12 md:grid-cols-2 py-24">
+                <div class="uno">
+                    <h3>titulo</h3>
+                    <h4>descripcion</h4>
+                </div>
+
+                <div class="dos">
+                    <h3>titulo</h3>
+                    <h4>descripcion</h4>
+                </div>
+
+                <div class="tres">
+                    <h3>titulo</h3>
+                    <h4>descripcion</h4>
+                </div>
+
+                <div class="tres">
+                    <h3>titulo</h3>
+                    <h4>descripcion</h4>
+                </div>
+            </article>
+        </section>
+
+        <!-- primera seccion -->
+
+        <section class="wrapper text-center py-24 grid gap-12 md:grid-cols-2 md:text-left">
+            <article id="servicios">
                 <h2 class="text-3xl font-bold text-terciary-color-0 mb-6 md:text-4xl">Whats different about</h2>
                 <p class="text-quaternary-color-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
                     veritatis.</p>
@@ -111,10 +141,12 @@
             </div>
         </section>
 
-        <section class="wrapper text-center py-24 max-w-lg mx-auto md:max-w-xl">
+        <!-- segunda seccion -->
+
+        <section id="testimonios" class="wrapper text-center py-24 max-w-lg mx-auto md:max-w-xl">
             <h2 class="text-3xl font-bold text-terciary-color-0">What about us?</h2>
             <div class="mt-24 mb-14 ">
-                <article class=" pt-16 pb-12 px-4 relative">
+                <article  class=" pt-16 pb-12 px-4 relative">
                     <img src="./images/LogoAgencia.png" alt=""
                         class="absolute w-24 aspect-square -top-12 inset-x-0 mx-auto">
                     <h3 class="text-xl mb-4 pt-2 font-bold text-terciary-color-0">Name</h3>
@@ -126,35 +158,36 @@
             <a href="" class="btn mx-auto">Get Started</a>
         </section>
 
+        <!-- casi footer -->
+
         <section class="bg-terciary-color-0 text-primary-color-0 font-bold">
             <div
                 class="wrapper py-24 text-center grid gap-6 md:grid-cols-[40%_40%] md:justify-between md:items-center md:text-left">
                 <h2 class="text-4xl">Leyenda</h2>
-                <a href="" class="btn bg-primary-color-0 text-terciary-color-0 mx-auto md:mx-0 md:justify-self-end">Get
-                    Started</a>
+                <a href="mailto:j.alehernandezt@gmail.com" class="btn bg-primary-color-0 text-terciary-color-0 mx-auto md:mx-0 md:justify-self-end">Contactanos</a>
             </div>
         </section>
 
 
     </main>
 
-    <footer class="bg-quaternary-color-0 py-24 ">
+    <footer class="bg-quaternary-color-0 py-24 " id="contacto">
         <section
-            class="wrapper grid gap-12 justify-items-center footer-area md:footer-area-md md:grid-cols-3 md:justify-items-stretch">
+            class="wrapper grid gap-12 justify-items-stretch footer-area md:footer-area-md md:grid-cols-3 md:justify-items-stretch">
 
-            <form action="" class="flex gap-4 w-full max-w-[100px]  [grid-area:form]">
-                <input type="email" placeholder="hola" name="" id="" class="min-w-[50px] flex-1 rounded-full px-4">
-                <input type="submit" value="GO" class="py-3 px-8 btn">
-            </form>
+            <!-- <form action="" class="flex gap-4 w-full max-w-[100px]  [grid-area:form]">
+                <input type="email" placeholder="email" name="" id="" class="min-w-[50px] flex-1 rounded-full px-4">
+                <a href="mailto:j.alehernandezt@gmail.com" class="btn bg-primary-color-0 text-terciary-color-0 mx-auto md:mx-0 md:justify-self-end">Contactanos</a>
+            </form> -->
 
             <nav
                 class="grid grid-cols-[max-content_max-content] justify-between text-primary-color-0 w-4/5 gap-y-4 [grid-area:navigation] md:w-full">
 
-                <a href="">Home</a>
-                <a href="">Pricing</a>
-                <a href="">Product</a>
-                <a href="">About</a>
-                <a href="">Comunity</a>
+                <a href="#">Nosotros</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#testimonio">Testimonios</a>
+                <a href="#contacto">Contacto</a>
             </nav>
             <div class="flex flex-wrap gap-4 justify-between w-full [grid-area:social-media]">
 
@@ -178,18 +211,15 @@
             <a href="#" class="[grid-area:logo]">
                 <img src="./images/LogoInverso.png" class="w-24 aspect-square -top-12 inset-x-0 mx-auto">
             </a>
-            
-
-            <p class="text-primary-color-0 text-center [grid-area:copyright] md:text-right">Copyright</p>
+            <a href="#">
+                <img src="./images/LogoInverso.png" class="w-24 aspect-square -top-12 inset-x-0 mx-auto">
+            </a>
 
         </section>
+        <a href="mailto:j.alehernandezt@gmail.com">
+            <p class="text-primary-color-0 text-center">Copyright | Veintiunodev</p>
+        </a >
     </footer>
-
-
-
-
-
-
 </body>
 
 </html>
