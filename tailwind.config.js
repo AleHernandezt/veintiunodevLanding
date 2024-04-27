@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'principal':['"Be Vietnam Pro"', 'sans-serif']
+        'principal':['"Montserrat", sans-serif']
       },
       colors:{
         'primary-color':["#fff6d8"],
