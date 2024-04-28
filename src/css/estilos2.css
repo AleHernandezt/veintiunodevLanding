@@ -14,34 +14,3 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
     background: #163b27;
 }
-.seccion .uno {
-    width: 350px;
-    height: 250px;
-    background: url(../images/port1.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.seccion .dos {
-    width: 350px;
-    height: 250px;
-    background: url(../images/port2.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.seccion .tres {
-    width: 350px;
-    height: 250px;
-    background: url(../images/port3.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.seccion .tres {
-    width: 350px;
-    height: 250px;
-    background: url(../images/port3.jpg);
-    background-position: center;
-    background-size: cover;
-}
