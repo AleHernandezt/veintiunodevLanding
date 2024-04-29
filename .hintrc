@@ -22,6 +22,7 @@
           "-webkit-text-size-adjust"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
