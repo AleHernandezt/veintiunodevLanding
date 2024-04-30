@@ -812,7 +812,7 @@ video {
 }
 
 .bg-veintiuno-pattern {
-  background-image: url(../images/Fondoveintiuno.jpg);
+  background-image: url(../images/Fondoveintiuno.png);
 }
 
 .bg-contain {
@@ -837,9 +837,9 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-2 {
@@ -873,10 +873,6 @@ video {
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .pt-2 {

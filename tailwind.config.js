@@ -15,7 +15,7 @@ module.exports = {
       backgroundImage:{
         "close-menu": "url(../images/icon-close.svg)",
         "open-menu": "url(../images/icon-hamburger.svg)",
-        "veintiuno-pattern": "url(../images/Fondoveintiuno.jpg)"
+        "veintiuno-pattern": "url(../images/Fondoveintiuno.png)"
       }
     },
   },
