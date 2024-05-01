@@ -1,4 +1,7 @@
 function Menu(e) {
-    let list = document.querySelector('ul');
-    e.name === 'menu' ? (e.name = "close", list.classList.add('top-[50px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[50px]'), list.classList.remove('opacity-100'))
+    const list = document.querySelector('ul');
+    const isOpen = e.name === 'menu';
+    e.name = isOpen ? 'close' : 'menu';
+    list.classList.toggle('top-[50px]', isOpen);
+    list.classList.toggle('opacity-100', isOpen);
 }
