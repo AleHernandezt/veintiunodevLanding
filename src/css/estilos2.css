@@ -14,3 +14,6 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
     background: #163b27;
 }
+.bg-pattern{
+    background-image: url(../images/Fondoveintiuno.png);
+}

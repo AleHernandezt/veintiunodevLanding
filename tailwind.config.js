@@ -11,11 +11,6 @@ module.exports = {
         'secondary-color':["#4aab75"],
         'terciary-color':["#38694e"],
         'quaternary-color':["#262626"]
-      },
-      backgroundImage:{
-        "close-menu": "url(../images/icon-close.svg)",
-        "open-menu": "url(../images/icon-hamburger.svg)",
-        "veintiuno-pattern": "url(../images/Fondoveintiuno.png)"
       }
     },
   },

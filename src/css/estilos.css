@@ -811,10 +811,6 @@ video {
   background-color: rgb(56 105 78 / var(--tw-bg-opacity));
 }
 
-.bg-veintiuno-pattern {
-  background-image: url(../images/Fondoveintiuno.png);
-}
-
 .bg-contain {
   background-size: contain;
 }
@@ -904,11 +900,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-lg {
@@ -1123,11 +1114,6 @@ video {
 
   .md\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
     line-height: 1;
   }
 
