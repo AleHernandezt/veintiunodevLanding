@@ -8,7 +8,10 @@
     }
 
     .btn {
-        @apply bg-terciary-color-0 text-primary-color-0 block w-max py-4 px-12 rounded-full shadow-sm font-bold hover:transition-all hover:bg-secondary-color-0;
+        @apply bg-terciary-color-0 text-primary-color-0 block w-max py-4 px-12 rounded-full shadow-sm font-bold hover:transition-all hover:bg-secondary-color-0 hover:text-xl;
+    }
+    .btn-special{
+        @apply block w-max py-4 px-12 rounded-full shadow-sm font-bold hover:transition-all bg-primary-color-0 text-terciary-color-0 mx-auto md:mx-0 md:justify-self-end hover:text-lg;
     }
     .link{
         @apply md:text-lg text-sm text-quaternary-color-0 hover:text-terciary-color-0 duration-500 ease-in-out
